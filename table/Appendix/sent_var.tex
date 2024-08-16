@@ -1,0 +1,21 @@
+    Variable & Definition \\
+    \midrule
+    Return & Returns are calculated from the price series from Coinmarketcap.com \\
+    $RV$ & Realized volatility calculated from 5-minute price series sampled  \newline{  \tab from order book data from Kaiko} \\
+    Bid-ask spread & We compute bid-ask spread as the difference between the best ask and  \newline{  \tab best bid prices, scaled by their midpoint. For each market where} the  \newline{  \tab cryptocurrency trades, we compute the daily bid-ask spread as }  \newline{  \tab the simple average of bid-ask spreads sampled at the 5-minute}  \newline{  \tab frequency} \\
+    Detrended trading volume & We log transform the total quantity of the cryptocurrency traded on \newline{  \tab high-quality exchanges listed in Table \ref{tabA:ex} and detrend it by the rolling } \newline{  \tab average of the past 30 days of log trading volume} \\
+   Attention & Crypto-specific \textit{Buzz}  \\
+    Market-wide Attention & Sum of crypto-specific \textit{Buzz}  \\
+    Sentiment & Crypto-specific \textit{Sentiment} index \\
+    Market-wide Emotion & The first principal component of 15 market-wide emotion-driven sentiment \newline{  \tab 
+ indexes as listed in Table \ref{tab:topics}} \\
+    Sentiment on Fundamentals & We decompose crypto-specific \textit{Sentiment} into two orthogonal copmponents. \newline{  \tab  Sentiment on Fundamentals is the decomposed variation attributed} \newline{  \tab to crypto-specific `\textit{fundamental features}' as listed in Table \ref{tab:topics}} \\
+    Exuberance & We decompose crypto-specific \textit{Sentiment} into two orthogonal components. \newline{  \tab Exuberance is the decomposed variation unrelated to } \newline{  \tab crypto-specific `\textit{fundamental features}' as listed in Table \ref{tab:topics}} \\
+    Market-wide Emotion on Fundamentals & We decompose market-wide \textit{Emotion} into two orthogonal copmponents. \newline{  \tab Market-wide Emotion on Fundamentals is the decomposed variation} \newline{  \tab attributed to market-wide `\textit{fundamental features}' as listed in Table \ref{tab:topics}} \\
+    Market-wide Exuberance & We decompose market-wide \textit{Emotion} into two orthogonal copmponents. \newline{  \tab Market-wide Exuberance is the decomposed variation } \newline{  \tab unrelated to market-wide `\textit{fundamental features}' as listed in Table \ref{tab:topics}} \\
+    Price Sentiment & The first principal component of 12 market-wide valuation-driven-driven \newline{  \tab sentiment indexes as listed in Table \ref{tab:topics}} \\
+    Price Perception & Price Perception refers to one of \textit{Price Sentiment, PriceUpvsDown,} \newline{  \tab \textit{ PriceUp,  PriceDown, PriceForecastUpvsDown, PriceMomentum,}} \newline{  \tab  and \textit{TopVsBottom}}  \\
+    Price Perception Related to Market-wide Exuberance & The variation in  one of  \textit{Price Sentiment , PriceUpvsDown, PriceUp,} \newline{  \tab  \textit{PriceDown, PriceForecastUpvsDown, PriceMomentum }} \newline{  \tab 
+ and \textit{TopVsBottom} explained by Market-wide Exuberance and lagged} \newline{  \tab  Market-wide Exuberance} \\
+    Price Perception Unrelated to Market-wide Exuberance & The variation in  one of  \textit{Price Sentiment , PriceUpvsDown, PriceUp,}  \newline{  \tab \textit{PriceDown, PriceForecastUpvsDown, PriceMomentum}}  \newline{  \tab and \textit{TopVsBottom} unexplained by Market-wide Exuberance and lagged}  \newline{  \tab Market-wide Exuberance} \\
+    \bottomrule

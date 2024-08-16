@@ -1,0 +1,625 @@
+%\documentclass[12pt]{article}
+%\usepackage{times}
+%\usepackage[round]{natbib}
+%\usepackage{graphicx}
+%\usepackage{tabularx, threeparttable, titling, comment, float}
+%\usepackage{titling,amssymb,fullpage, multirow, microtype, booktabs, array,url,authblk,array,longtable,afterpage,pdflscape,booktabs, rotating, appendix}
+%\usepackage[FIGTOPCAP]{subfigure}
+%\usepackage{amsfonts,amsmath,amsthm, titlesec, hyperref, csquotes, adjustbox}
+%\usepackage[usenames,dvipsnames,table]{xcolor}
+%\usepackage[labelfont=bf,labelsep=colon,justification=justified]{caption}
+%\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+%\usepackage{setspace}
+%\usepackage{enumitem}
+%\usepackage{siunitx} % better
+%%
+%%
+%%
+%\titlespacing{\section}{0pt}{*0}{*0}
+%\titlespacing{\subsection}{0pt}{*0}{*0}
+%\titlespacing{\subsubsection}{0pt}{*0}{*0}
+%%
+%\setlength{\parskip}{1mm}
+%\setlength{\widowpenalty}{10000}          %/*150*/ No Widows at bottom of page
+%\setlength{\displaywidowpenalty}{10000}   %/*50*/
+%\setlength{\clubpenalty}{100000}          % No orphans at top of page
+%\setlist[itemize]{topsep=0pt}
+%%
+%\renewcommand*{\thesubfigure}{\Alph{subfigure})}
+%\setlength{\abovedisplayskip}{0pt}
+%\setlength{\belowdisplayskip}{0pt}
+%\setlength{\abovedisplayshortskip}{0pt}
+%\setlength{\belowdisplayshortskip}{0pt}
+%
+%
+%%\usepackage{xr}
+%%\externaldocument{Internet_Appendix}
+%
+%\begin{document}
+
+
+%% Tables
+
+\clearpage
+\newpage
+%\setlength{\tabcolsep}{1pt}
+        
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Summary Statistics of Deposits and Loans}\label{tab:pool_sumstat_DL}
+\caption*{This table presents summary statistics of the total deposit and loan amounts in US dollars on pool-day level data. The sample includes lending pools of USDC, DAI, WBTC, and WETH and pools other than those four on AAVE and Compound from January 2021 to January 2023. The total deposit or total loan of all other pools is calculated by summing up the number of individual ones. All variables are winsorized at the $1^{st}$ and $99^{th}$ percentiles.}
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccccccc}
+
+    \toprule
+    Variable  & N & Mean & SD & P25 & Median & P75 \\
+    \midrule
+    \multicolumn{7}{c}{Panel A: Deposit (\$, Billion)} \\
+    \midrule
+    AAVE-USDC  & 731   & 2.48  & 1.72  & 0.99  & 2.32  & 3.62 \\[2pt]
+    AAVE-DAI  & 731   & 0.91  & 0.73  & 0.20  & 0.74  & 1.61 \\[2pt]
+    AAVE-WBTC  & 731   & 1.09  & 0.57  & 0.61  & 1.14  & 1.50 \\[2pt]
+    AAVE-WETH  & 731   & 2.85  & 2.11  & 1.00  & 2.37  & 4.39 \\[2pt]
+    AAVE-Others  & 731   & 2.73  & 0.99  & 2.21  & 2.68  & 3.28 \\[2pt]
+    COMP-USDC  & 731   & 2.40  & 1.40  & 1.00  & 2.43  & 3.58 \\[2pt]
+    COMP-DAI  & 731   & 2.30  & 1.48  & 0.74  & 2.30  & 3.62 \\[2pt]
+    COMP-WBTC  & 731   & 1.38  & 0.77  & 0.69  & 1.36  & 1.91 \\[2pt]
+    COMP-WETH  & 731   & 2.99  & 2.13  & 0.87  & 2.75  & 4.69 \\[2pt]
+    COMP-Others  & 731   & 1.13  & 0.48  & 0.70  & 1.25  & 1.52 \\
+    \midrule
+    \multicolumn{7}{c}{Panel B: Loan (\$, Billion)} \\
+    \midrule
+    AAVE-USDC  & 731   & 1.84  & 1.56  & 0.44  & 1.44  & 2.98 \\[2pt]
+    AAVE-DAI  & 731   & 0.66  & 0.59  & 0.10  & 0.54  & 1.18 \\[2pt]
+    AAVE-WBTC  & 731   & 0.06  & 0.03  & 0.03  & 0.06  & 0.08 \\[2pt]
+    AAVE-WETH  & 731   & 0.39  & 0.37  & 0.12  & 0.20  & 0.61 \\[2pt]
+    AAVE-Others  & 731   & 0.77  & 0.41  & 0.40  & 0.83  & 1.15 \\[2pt]
+    COMP-USDC  & 731   & 1.63  & 1.16  & 0.37  & 1.50  & 2.65 \\[2pt]
+    COMP-DAI  & 731   & 1.70  & 1.22  & 0.32  & 1.82  & 2.84 \\[2pt]
+    COMP-WBTC  & 731   & 0.09  & 0.07  & 0.02  & 0.08  & 0.15 \\[2pt]
+    COMP-WETH  & 731   & 0.14  & 0.10  & 0.04  & 0.14  & 0.23 \\[2pt]
+    COMP-Others  & 731   & 0.48  & 0.22  & 0.27  & 0.51  & 0.66 \\
+    \bottomrule
+
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+\clearpage
+\newpage
+%\setlength{\tabcolsep}{1pt}
+        
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Summary Statistics of Borrowing and Lending Rates}\label{tab:pool_sumstat_I}
+\caption*{This table presents summary statistics of borrowing and lending rates in percentage on pool-day level data and the Secured Overnight Financing Rate (SOFR) in percentage. The sample includes lending pools of USDC, DAI, WBTC, and WETH and pools other than those four on AAVE and Compound from January 2021 to December 2023. The borrowing (lending) rates of all other pools are the loan (deposit) amount weighted average of individual ones. All variables are winsorized at the $1^{st}$ and $99^{th}$ percentiles.}
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccccccc}
+
+    \toprule
+    Variable  & N & Mean & SD & P25 & Median & P75 \\
+    \midrule
+    \multicolumn{7}{c}{Panel A: Lending Rate (\%)} \\
+    \midrule
+    AAVE-USDC  & 731   & 3.46  & 3.47  & 1.08  & 2.26  & 4.59 \\[2pt]
+    AAVE-DAI  & 731   & 3.43  & 3.09  & 1.39  & 2.49  & 3.92 \\[2pt]
+    AAVE-WBTC  & 731   & 0.05  & 0.05  & 0.01  & 0.03  & 0.07 \\[2pt]
+    AAVE-WETH  & 731   & 0.53  & 0.81  & 0.02  & 0.19  & 0.77 \\[2pt]
+    AAVE-Others  & 731   & 1.58  & 1.43  & 0.73  & 1.23  & 1.68 \\[2pt]
+    COMP-USDC  & 731   & 2.99  & 2.84  & 0.84  & 2.00  & 3.31 \\[2pt]
+    COMP-DAI  & 731   & 2.91  & 2.32  & 1.12  & 2.56  & 2.96 \\[2pt]
+    COMP-WBTC  & 731   & 0.19  & 0.14  & 0.07  & 0.17  & 0.27 \\[2pt]
+    COMP-WETH  & 731   & 0.12  & 0.06  & 0.07  & 0.09  & 0.16 \\[2pt]
+    COMP-Others  & 731   & 2.08  & 1.39  & 1.26  & 1.57  & 2.13 \\
+    \midrule
+    \multicolumn{7}{c}{Panel B: Borrowing Rate (\%)} \\
+    \midrule
+    AAVE-USDC  & 731   & 5.01  & 5.71  & 2.27  & 3.30  & 3.97 \\[2pt]
+    AAVE-DAI  & 731   & 5.44  & 5.61  & 2.75  & 3.66  & 4.40 \\[2pt]
+    AAVE-WBTC  & 731   & 0.71  & 0.42  & 0.37  & 0.58  & 0.96 \\[2pt]
+    AAVE-WETH  & 731   & 1.45  & 1.21  & 0.49  & 1.36  & 2.11 \\[2pt]
+    AAVE-Others  & 731   & 7.17  & 6.05  & 3.86  & 4.48  & 7.41 \\[2pt]
+    COMP-USDC  & 731   & 4.53  & 3.16  & 2.34  & 3.48  & 4.54 \\[2pt]
+    COMP-DAI  & 731   & 4.67  & 2.80  & 2.83  & 4.09  & 4.41 \\[2pt]
+    COMP-WBTC  & 731   & 3.83  & 0.93  & 3.03  & 3.74  & 4.59 \\[2pt]
+    COMP-WETH  & 731   & 2.82  & 0.32  & 2.60  & 2.75  & 3.00 \\[2pt]
+    COMP-Others  & 731   & 5.30  & 3.19  & 3.39  & 4.10  & 5.24 \\[2pt]
+    SOFR  & 500   & 0.83  & 1.28  & 0.05  & 0.05  & 1.52 \\
+    \bottomrule
+
+          \end{tabular*} 
+
+
+
+\end{table}%
+    
+\clearpage
+\newpage
+\begin{landscape}
+    
+
+\begin{table}[htbp]
+%\footnotesize 
+
+  \caption{Governance Proposals}\label{tab:proposals}
+  
+\caption*{This table presents the timelines for each proposal, including the start of the discussion period, the start and end of the voting period, and the date of execution. The Proposal ID includes the name of the DeFi lending platform, indicating whether AAVE or Compound (COMP) initiated this proposal. }
+
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+   \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}ccccc}
+    \toprule
+    Proposal & Discussion & Voting & Voting & Execution \\
+      ID        &   Begin    & Begin & End &  \\
+    \midrule
+    %   \multicolumn{12}{c}{Panel A: Proposals to decrease collateral requirements} \\
+    % \midrule
+      % AAVE-39 & WETH  & 0.800 & 0.825 &       &       &       &       & 9/30/2021 & 10/5/2021 & 10/8/2021 & 10/9/2021 \\
+    % AAVE-39 & YFI   & 0.450 & 0.500 & 0.600 & 0.650 &       &       & 9/30/2021 & 10/5/2021 & 10/8/2021 & 10/9/2021 \\
+    % AAVE-39 & ZRX   & 0.600 & 0.650 & 0.700 & 0.750 &       &       & 9/30/2021 & 10/5/2021 & 10/8/2021 & 10/9/2021 \\
+    % AAVE-40 & BAT   &       &       & 0.750 & 0.800 &       &       & 10/8/2021 & 10/11/2021 & 10/14/2021 & 10/15/2021 \\
+    % AAVE-42 & UNI   & 0.550 & 0.600 &       &       &       &       & 10/15/2021 & 10/18/2021 & 10/21/2021 & 10/22/2021 \\
+    % AAVE-53 & BAT   & 0.700 & 0.750 &       &       &       &       & 12/16/2021 & 12/21/2021 & 12/24/2021 & 12/25/2021 \\
+    % AAVE-53 & ZRX   & 0.600 & 0.650 &       &       &       &       & 12/16/2021 & 12/21/2021 & 12/24/2021 & 12/25/2021 \\
+    % AAVE-58 & FEI   & 0.500 & 0.600 & 0.600 & 0.700 &       &       & 2/11/2022 & 2/16/2022 & 2/19/2022 & 2/20/2022 \\
+    % AAVE-67 & FEI   & 0.600 & 0.650 & 0.700 & 0.750 &       &       & 3/18/2022 & 3/23/2022 & 3/26/2022 & 3/27/2022 \\
+     % AAVE-69 & DAI   & 0.750 & 0.770 &       &       &       &       & 4/1/2022 & 4/5/2022 & 4/8/2022 & 4/9/2022 \\
+    % AAVE-69 & LINK  &       &       & 0.750 & 0.780 &       &       & 4/1/2022 & 4/5/2022 & 4/8/2022 & 4/9/2022 \\
+    AAVE-69     & 4/1/2022 & 4/5/2022 & 4/8/2022 & 4/9/2022 \\[2pt]
+    % AAVE-70 & UNI   &       &       & 0.700 & 0.750 &       &       & 4/22/2022 & 4/26/2022 & 4/29/2022 & 5/1/2022 \\
+     AAVE-92      & 8/4/2022 & 8/9/2022 & 8/13/2022 & 8/14/2022 \\[2pt]
+    % AAVE-92 & LINK  &       &       & 0.780 & 0.830 &       &       & 8/4/2022 & 8/9/2022 & 8/13/2022 & 8/14/2022 \\
+    AAVE-94         & 8/18/2022 & 8/23/2022 & 8/27/2022 & 8/28/2022 \\[2pt]
+    AAVE-102       & 9/23/2022 & 9/27/2022 & 9/30/2022 & 10/1/2022 \\[2pt]
+    % AAVE-102 & UNI   & 0.600 & 0.650 & 0.750 & 0.770 &       &       & 9/23/2022 & 9/27/2022 & 9/30/2022 & 10/1/2022 \\
+    AAVE-108       & 10/7/2022 & 10/12/2022 & 10/14/2022 & 10/15/2022 \\[2pt]
+       COMP-36       & 1/15/2021 & 2/2/2021 & 2/4/2021 & 2/6/2021 \\[2pt]
+    % Compound-39 & ZRX   &       &       &       &       & 0.600 & 0.650 & 2/20/2021 & 3/3/2021 & 3/5/2021 & 3/7/2021 \\
+    % Compound-39 & BAT   &       &       &       &       & 0.600 & 0.650 & 2/20/2021 & 3/3/2021 & 3/5/2021 & 3/7/2021 \\
+    % Compound-66 & LINK  &       &       &       &       & 0.500 & 0.600 & 10/25/2021 & 11/3/2021 & 11/7/2021 & 11/9/2021 \\
+    % Compound-66 & MKR   &       &       &       &       & 0.350 & 0.450 & 10/25/2021 & 11/3/2021 & 11/7/2021 & 11/9/2021 \\
+    COMP-66       & 10/25/2021 & 11/3/2021 & 11/7/2021 & 11/9/2021 \\[2pt]
+    % Compound-66 & YFI   &       &       &       &       & 0.350 & 0.550 & 10/25/2021 & 11/3/2021 & 11/7/2021 & 11/9/2021 \\
+     COMP-71      & 11/18/2021 & 11/21/2021 & 11/25/2021 & 11/28/2021 \\[2pt]
+    % Compound-72 & UNI   &       &       &       &       & 0.600 & 0.700 & 11/30/2021 & 12/3/2021 & 12/6/2021 & 12/8/2021 \\
+    COMP-74   & 12/12/2021 & 12/14/2021 & 12/17/2021 & 12/20/2021 \\[2pt]
+    % Compound-74 & BAT   &       &       &       &       & 0.600 & 0.650 & 12/12/2021 & 12/14/2021 & 12/17/2021 & 12/20/2021 \\
+    % Compound-74 & LINK  &       &       &       &       & 0.650 & 0.700 & 12/12/2021 & 12/14/2021 & 12/17/2021 & 12/20/2021 \\
+     COMP-81       & 1/7/2022 & 1/13/2022 & 1/16/2022 & 1/18/2022 \\
+    % Compound-85 & UNI   &       &       &       &       & 0.700 & 0.750 & 2/12/2022 & 2/21/2022 & 2/25/2022 & 2/28/2022 \\
+    % Compound-85 & LINK  &       &       &       &       & 0.700 & 0.750 & 2/12/2022 & 2/21/2022 & 2/25/2022 & 2/28/2022 \\
+    % Compound-85 & MKR   &       &       &       &       & 0.550 & 0.600 & 2/12/2022 & 2/21/2022 & 2/25/2022 & 2/28/2022 \\
+    % Compound-85 & YFI   &       &       &       &       & 0.600 & 0.650 & 2/12/2022 & 2/21/2022 & 2/25/2022 & 2/28/2022 \\
+    % Compound-90 & ZRX   &       &       &       &       & 0.600 & 0.650 & 3/10/2022 & 3/16/2022 & 3/19/2022 & 3/21/2022 \\
+    % Compound-90 & MKR   &       &       &       &       & 0.600 & 0.650 & 3/10/2022 & 3/16/2022 & 3/19/2022 & 3/21/2022 \\
+    % Compound-98 & YFI   &       &       &       &       & 0.650 & 0.700 & 3/29/2022 & 4/6/2022 & 4/9/2022 & 4/11/2022 \\
+    % Compound-103 & MKR   &       &       &       &       & 0.650 & 0.700 & 4/20/2022 & 4/27/2022 & 4/30/2022 & 5/2/2022 \\
+    % Compound-107 & USDC        &       &       & 0.800 & 0.825 & 5/19/2022 & 5/25/2022 & 5/28/2022 & 5/31/2022 \\
+    %  Compound-107 & DAI         &       &       & 0.800 & 0.825 & 5/19/2022 & 5/25/2022 & 5/28/2022 & 5/31/2022 \\
+    % Compound-107 & MKR   &       &       &       &       & 0.700 & 0.730 & 5/19/2022 & 5/25/2022 & 5/28/2022 & 5/31/2022 \\
+    % Compound-107 & LINK  &       &       &       &       & 0.750 & 0.770 & 5/19/2022 & 5/25/2022 & 5/28/2022 & 5/31/2022 \\
+    % Compound-107 & YFI   &       &       &       &       & 0.700 & 0.730 & 5/19/2022 & 5/25/2022 & 5/28/2022 & 5/31/2022 \\
+    % \midrule
+    %     \multicolumn{12}{c}{Panel B: Proposals to increase collateral requirements} \\
+    % \midrule
+    % AAVE-39 & UNI   & 0.600 & 0.550 &       &       &       &       & 9/30/2021 & 10/5/2021 & 10/8/2021 & 10/9/2021 \\ [2pt]
+    % AAVE-43 & ZRX   & 0.650 & 0.600 &       &       &       &       & 10/21/2021 & 10/25/2021 & 10/28/2021 & 10/29/2021 \\[2pt]
+    % AAVE-137 & DAI   & 0.770 & 0.750 & 0.900 & 0.870 &       &       & 12/1/2022 & 12/21/2022 & 12/24/2022 & 12/25/2022 \\[2pt]
+    % AAVE-137 & USDC  & 0.870 & 0.800 & 0.890 & 0.875 &       &       & 12/1/2022 & 12/21/2022 & 12/24/2022 & 12/25/2022 \\[2pt]
+    % Compound-39 & WBTC  &       &       &       &       & 0.750 & 0.650 & 2/6/2021 & 3/3/2021 & 3/5/2021 & 3/7/2021 \\[2pt]   
+    \bottomrule
+            % \\ \multicolumn{12}{r}{\textit{(continued on next page)}}\\
+    
+\end{tabular*} 
+\end{table}
+\end{landscape}
+
+
+\clearpage
+\newpage
+%\setlength{\tabcolsep}{1pt}
+    \begin{landscape}
+        
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Margin Requirements for the Treated and Control Pools}\label{tab:proposal_margin}
+\caption*{This table lists margin requirements for each treated pool and control pool. The Liquidation Threshold (LT) and the Collateral Factor (CF) regulate margin requirements on AAVE and Compound, respectively. AAVE (Compound) assigns the Liquidation Threshold (Collateral Factor) to each lending pool. The Liquidation Threshold or the Collateral Factor of a lending pool determines the maximum loan amount an account can have to prevent liquidation if the account uses \$1 of deposits in this lending pool as collateral. The Proposal ID and lending pool include the name of the DeFi lending platform.}
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llcclc}
+    \toprule
+    Proposal & Treated Pool & LT/CF (\%)  & LT/CF (\%) & Control Pool & LT/CF (\%) \\
+     ID &   &   From &   To & &  \\
+          &       & (Treated Pool) & (Treated Pool)&  & (Control Pool) \\
+          \midrule
+    AAVE-69 & AAVE-USDC & 85.0 & 86.0 & COMP-USDC& 80.0 \\[2pt]
+    AAVE-92 & AAVE-DAI & 80.0 & 85.0& COMP-DAI & 83.5 \\[2pt]
+    AAVE-94 & AAVE-WBTC & 75.0 & 80.0 & COMP-WBTC& 70.0 \\[2pt]
+    AAVE-102 & AAVE-USDC & 88.0 & 89.0& COMP-USDC & 85.5 \\[2pt]
+    AAVE-102 & AAVE-WETH & 85.0 & 86.0& COMP-WETH & 82.5 \\[2pt]
+    AAVE-108 & AAVE-WBTC & 80.0 & 82.0& COMP-WBTC & 70.0 \\[2pt]
+    COMP-36 & COMP-WBTC & 60.0 & 75.0 & AAVE-WBTC& 75.0 \\[2pt]
+    COMP-66 & COMP-USDC & 75.0 & 80.0 & AAVE-USDC& 85.0 \\[2pt]
+    COMP-71 & COMP-DAI & 75.0 & 80.0 & AAVE-DAI& 80.0 \\[2pt]
+    COMP-71 & COMP-WETH & 75.0 & 80.0 & AAVE-WETH& 85.0 \\[2pt]
+    COMP-74 & COMP-WBTC & 65.0 & 70.0 & AAVE-WBTC& 75.0 \\[2pt]
+    COMP-81 & COMP-WETH & 80.0 & 82.5 & AAVE-WETH & 85.0 \\
+    \midrule
+
+          \end{tabular*} 
+
+
+
+\end{table}%
+    \end{landscape}
+
+\clearpage
+\newpage
+%\setlength{\tabcolsep}{1pt}
+        
+
+\begin{table}[ht!]
+\caption{Summary Statistics of Margin Requirements}\label{tab:proposal_sumstat}
+\caption*{This table provides summary statistics of margin requirements for the treated and control pools. The Liquidation Threshold and the Collateral Factor regulate the margin requirements on AAVE and Compound, respectively. AAVE (Compound) assigns the Liquidation Threshold (Collateral Factor) to each lending pool, and this risk parameter determines the maximum loan amount an account can have to prevent liquidation if the account uses \$1 of deposits in this lending pool as collateral. }
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccc}
+    \toprule
+     &   LT/CF (\%)  & LT/CF (\%)  & LT/CF (\%) \\
+          &   From &  To &\\
+               & (Treated Pool)  & (Treated Pool)  &  (Control Pool) \\
+          \midrule
+    Mean        & 76.9   & 81.3   & 79.7 \\
+    SD           & 8.1   & 5.2  &  5.8 \\
+    P25        & 75.0   & 80.0   & 75.0 \\
+    Median       & 77.5   & 81.0   & 81.3 \\
+    P75         & 81.3   & 85.3  &  85.0 \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+    
+\clearpage
+\newpage
+%\setlength{\tabcolsep}{1pt}
+    
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Summary Statistics of Borrowing and Lending Positions}\label{tab:sumstat}
+\caption*{This table presents summary statistics of borrowing and lending positions. $Deposit$ is the US dollar amount (in thousands) of the deposit balance in the treated or control pool. $TotalDeposit$ is the aggregated deposit balance in thousands, calculated by summing the US dollar amounts across all lending positions on the platform. $TotalBorrow$ is the aggregated loan balance in thousands, calculated by summing the dollar amounts across all borrowing positions on the platform. $Leverage$ is the ratio of the total market value of assets ($TotalDeposit+Total Borrow$) and the equity value ($Total Deposit$). Panel A presents the summary statistics of borrowing and lending positions, and Panel B compares the borrowing and lending positions between the treatment and control groups, using observations at the end of the week before the proposal discussion. All financial variables are winsorized at the 1$^{st}$ and 99$^{th}$ percentiles. }
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccccc }
+    \toprule
+     Variable  &N & Mean & SD & P25 & Median & P75 \\
+     \midrule
+    \multicolumn{7}{c}{Panel A: Summary Statistics on Borrower Account-Week Data} \\
+    \midrule
+    Deposit (\$, thousand) & 426,245 & 280.84 & 1,116.20 & 1.44  & 13.32 & 83.65 \\
+          &       &       &       &       &       &  \\
+    TotalDeposit (\$, thousand) & 426,245 & 469.70 & 1,797.61 & 3.45  & 26.52 & 156.64 \\
+          &       &       &       &       &       &  \\
+    TotalBorrow (\$, thousand) & 426,245 & 176.16 & 677.50 & 1.09  & 9.12  & 55.01 \\
+          &       &       &       &       &       &  \\
+    Leverage & 409,684 & 1.43  & 0.20  & 1.28  & 1.43  & 1.57 \\
+    \midrule
+        \multicolumn{7}{c}{Panel B: Differences across the Treated and Control Borrowers} \\
+\midrule
+          & \multicolumn{2}{c}{Control} &       & \multicolumn{2}{c}{Treated} &  \\
+\cmidrule{2-3}\cmidrule{5-6}          & N & Mean &       & N & Mean & Difference \\
+\cmidrule{2-3}\cmidrule{5-6}          & (1) & (2) &       & (3) & (4) & (4)-(2) \\
+\cmidrule{2-7}    Deposit (\$, thousand) & 14,369 & 329.37 &       & 14,184 & 342.92 & 13.55 \\
+          &       &       &       &       &       & (14.43) \\
+    TotalDeposit (\$, thousand) & 14,369 & 529.33 &       & 14,184 & 555.35 & 26.02 \\
+          &       &       &       &       &       & (22.84) \\
+    TotalBorrow (\$, thousand) & 14,369 & 200.28 &       & 14,184 & 197.67 & -2.61 \\
+          &       &       &       &       &       & (8.52) \\
+    Leverage & 14,369 & 1.41  &       & 14,184 & 1.41  & -0.00 \\
+          &       &       &       &       &       & (0.00) \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+
+
+\clearpage
+\newpage
+
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Relaxed Margin Requirements and Loan Balances}\label{tab:mainborrow}
+\caption*{This table reports results from Poisson pseudo-maximum likelihood regressions: $TotalBorrow_{i,t}^{p} = \beta_1Treated_{i}^{p}\times DiscussToExe_t + \beta_2Treated^{p}_{i}\times PostExe_{t}+ \sigma_1Treated^p_{i} + \sigma_2 DiscussToExe_t+\sigma_3 PostExe_{t}+\textit{Borrower FE} + \textit{Collateral}\times\textit{Week FE}+\epsilon_{i,t}^p$, where $TotalBorrow_{i,t}^{p}$ represents the total loan balance in account $i$ on platform $p$ at the end of week $t$. $Treated_{i}^{p}$ is a binary variable that takes a value of 1 if account $i$ experiences a relaxation in margin requirements. $DiscussToExe_t$ is a binary variable that takes a value of 1 if week $t$ is during the period from proposal discussion to execution. $PostExe_t$ is a binary variable that takes a value of 1 if week $t$ is during the period after proposal execution. Column (4) analyzes a subset of borrowers who supply cryptocurrencies only to the treated or control pool and use only one type of cryptocurrency as collateral. Standard errors are clustered at the borrower and week levels and are reported in the parenthesis. *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively. }
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccc }
+    \toprule
+          & TotalBorrow & TotalBorrow & TotalBorrow & TotalBorrow \\
+          &       &       &       & (Subsample) \\
+          & (1)   & (2)   & (3)   & (4) \\
+\cmidrule{2-5}    $Treated\times DiscussToExe$ &       &       & 0.016 & 0.008 \\
+          &       &       & (0.021) & (0.023) \\
+          &       &       &       &  \\
+    $Treated\times PostExe$ & 0.103*** & 0.071*** & 0.076*** & 0.087* \\
+          & (0.031) & (0.027) & (0.030) & (0.045) \\
+          &       &       &       &  \\
+    Borrower FE &    $\checkmark$   &  $\checkmark$     &  $\checkmark$     & $\checkmark$ \\
+    Collateral-Week FE &       &    $\checkmark$   &  $\checkmark$     &$\checkmark$  \\
+          &       &       &       &  \\
+    Observations & 425,601 & 425,601 & 425,601 & 184,075 \\
+    R-squared & 0.897 & 0.914 & 0.914 & 0.924 \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+
+
+\clearpage
+\newpage
+
+
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Relaxed Margin Requirements and Deposit Balances}\label{tab:maindeposit}
+\caption*{This table reports results from Poisson pseudo-maximum likelihood regressions: $Deposit_{i,t}^{c,p} = \beta_1Treated_{i}^{p}\times DiscussToExe_t + \beta_2Treated^{p}_{i}\times PostExe_{t}+ \sigma_1Treated^p_{i} + \sigma_2 DiscussToExe_t+\sigma_3 PostExe_{t}+\textit{Borrower FE} + \textit{Collateral}\times\textit{Week FE}+\epsilon_{i,t}^p$, where $Deposit_{i,t}^{c,p}$ represents the US dollar amount of the deposit balance in the treated or control pool of cryptocurrency $c$ on platform $p$ held by account $i$ at the end of week $t$. $Treated_{i}^{p}$ is a binary variable that takes a value of 1 if account $i$ experiences a relaxation in margin requirements. $DiscussToExe_t$ is a binary variable that takes a value of 1 if week $t$ is during the period from proposal discussion to execution. $PostExe_t$ is a binary variable that takes a value of 1 if week $t$ is during the period after the proposal execution. Column (4) analyzes a subset of borrowers who supply cryptocurrencies only to the treated or control pool and use only one type of cryptocurrency as collateral. Standard errors are clustered at the borrower and week levels and are reported in the parenthesis. *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively.}
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccc }
+    \toprule
+
+          & Deposit & Deposit & Deposit & Deposit \\
+          &       &       &       & (Subsample) \\
+          & (1)   & (2)   & (3)   & (4) \\
+\cmidrule{2-5}     $Treated\times DiscussToExe$ &       &       & 0.010 & 0.010 \\
+          &       &       & (0.028) & (0.018) \\
+          &       &       &       &  \\
+    $Treated\times PostExe$ & 0.077*** & 0.054** & 0.057** & 0.033 \\
+          & (0.030) & (0.026) & (0.028) & (0.040) \\
+          &       &       &       &  \\
+    Borrower FE &    $\checkmark$   &  $\checkmark$     &  $\checkmark$     & $\checkmark$ \\
+    Collateral-Week FE &       &    $\checkmark$   &  $\checkmark$     &$\checkmark$  \\
+          &       &       &       &  \\
+    Observations & 426,205 & 426,205 & 426,205 & 184,528 \\
+    R-squared & 0.874 & 0.895 & 0.895 & 0.932 \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+\clearpage
+\newpage
+
+
+
+    
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Relaxed Margin Requirements and Leverage }\label{tab:hetero_lev}
+\caption*{ This table reports results from Ordinary Least Squares regressions of Equation \ref{eq:triple_diff}, where $Leverage_{i,t}^p$ represents the leverage of account $i$ on platform $p$ at the end of week $t$. Borrowers are sorted into quartiles based on the average leverage ratio, estimated using daily observations from the start of the event window to the day before the proposal discussion. Borrowers with the lowest leverage ratio are in the lowest quartile (Quartile 1). Borrowers with the highest leverage ratio are in the highest quartile (Quartile 4). $\textit{Leverage Quartiles}_{i}^p$ is an indicator variable for borrowers in each quartile. $Treated_{i}^{p}$ is a binary variable that takes a value of 1 if account $i$ experiences a relaxation in margin requirements. $DiscussToExe_t$ is a binary variable that takes a value of 1 if week $t$ is during the period from proposal discussion to execution. $PostExe_t$ is a binary variable that takes a value of 1 if week $t$ is during the period after the proposal execution. Column (2) analyzes a subset of borrowers who supply cryptocurrencies only to the treated or control pool and use only one type of cryptocurrency as collateral. Standard errors are clustered at the borrower and week levels and are reported in the parenthesis. *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively.}
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcc }
+     \toprule
+          & Leverage & Leverage \\
+          &       & (Subsample) \\
+          & (1)   & (2) \\
+\cmidrule{2-3}    $Treated \times DiscussToExe \times Quartile\text{ }1$ & Baseline     & Baseline \\
+& & \\
+     $Treated \times DiscussToExe \times Quartile\text{ }2$  & -0.005 & -0.008 \\
+          & (0.004) & (0.006) \\[2pt]
+     $Treated \times DiscussToExe \times Quartile\text{ }3$ & 0.001 & 0.002 \\
+          & (0.005) & (0.007) \\[2pt]
+    $Treated \times DiscussToExe \times Quartile\text{ }4$  & -0.002 & 0.006 \\
+          & (0.005) & (0.006) \\[2pt]
+          & & \\
+    $Treated \times PostExe \times Quartile\text{ }1$ & Baseline     & Baseline \\
+    & & \\
+
+    $Treated \times PostExe \times Quartile\text{ }2$ & -0.006 & -0.005 \\
+          & (0.005) & (0.007) \\[2pt]
+    $Treated \times PostExe \times Quartile\text{ }3$ & 0.010* & 0.014* \\
+          & (0.006) & (0.007) \\[2pt]
+    $Treated \times PostExe \times Quartile\text{ }4$ & 0.016*** & 0.025*** \\
+          & (0.006) & (0.007) \\
+          & & \\
+    Borrower FE &    $\checkmark$     & $\checkmark$   \\
+    Collateral-Week FE &  $\checkmark$       & $\checkmark$   \\
+              & & \\
+    Observations & 404,522 & 171,761 \\
+    R-squared & 0.795 & 0.837 \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+
+\clearpage
+\newpage
+\setlength{\tabcolsep}{1pt}
+    \begin{landscape}
+        
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{The Effects of Margin Requirements on Interest Rates}\label{tab:interestrates}
+\caption*{This table reports results from OLS regressions: $Y_{c,t}^p= \beta_1Treated_{c}^{p}\times DiscussToExe_t + \beta_2Treated^{p}_{c}\times PostExe_{t} + \sigma_1Treated^p_{c} + \sigma_2 DiscussToExe_t+\sigma_3 PostExe_{t} + \textit{Crypto }\times\textit{Week FE}+\epsilon_{c,t}^p$, where $Y_{c,t}^p$ represents one of the utilization ratios, lending rates, and borrowing rates of cryptocurrency $c$ on platform $p$ at the end of week t. $Treated^{p}_{c}$ is a binary variable that takes a value of 1 if the platform $p$, operating the borrowing and lending of cryptocurrency $c$, relaxes the margin requirements. DiscussToExe is a binary variable that takes a value of 1 if the week $t$ is during the period from proposal discussion to execution. PostExet is a binary variable that takes a value of 1 if the week $t$ is during the period after proposal execution. Columns (1) through (3) report results using all four major pools. Columns (4) through (6) analyze stablecoin pools (USDC and DAI), and Columns (7) through (9) analyze other pools (WBTC and WETH). Standard errors are clustered at the week level and are reported in the parenthesis. *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively. }
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccccccccc}
+    \toprule
+% Table generated by Excel2LaTeX from sheet 'Sheet1'
+
+          & Utilization & Borrowing & Lending & Utilization & Borrowing & Lending & Utilization & Borrowing & Lending \\
+          & & Rate \%&  Rate \%& & Rate \%&  Rate \%&& Rate \%&  Rate \%\\
+          &(All) &(All) &(All) &(Stablecoin) &(Stablecoin)&(Stablecoin)&(Others)&(Others)&(Others)\\
+     \cmidrule{2-10}      & (1)   & (2)   & (3)   & (4)   & (5)   & (6)   & (7)   & (8)   & (9) \\
+   $Treated \times DiscussToExe$ & 0.007 & -0.112 & -0.036 & -0.001 & 0.199 & 0.199 & 0.014 & -0.424 & -0.271 \\
+          & (0.019) & (0.325) & (0.133) & (0.008) & (0.183) & (0.133) & (0.033) & (0.552) & (0.203) \\
+          &       &       &       &       &       &       &       &       &  \\
+    $Treated \times PostExe $ & 0.026 & 0.210 & 0.126 & 0.023** & 0.436** & 0.394*** & 0.029 & -0.015 & -0.142 \\
+          & (0.018) & (0.242) & (0.111) & (0.011) & (0.164) & (0.142) & (0.027) & (0.452) & (0.125) \\
+    Collateral-Week FE &    \checkmark   &     \checkmark   &    \checkmark    &     \checkmark   &     \checkmark   &     \checkmark   &  \checkmark      &    \checkmark    &  \checkmark \\
+          &       &       &       &       &       &       &       &       &  \\
+    Observations & 1320  & 1320  & 1320  & 660   & 660   & 660   & 660   & 660   & 660 \\
+    R-squared & 0.919 & 0.684 & 0.900 & 0.965 & 0.948 & 0.968 & 0.647 & 0.388 & 0.601 \\
+
+
+\bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+    \end{landscape}
+
+\clearpage
+\newpage
+
+
+
+    
+\begin{table}[ht!]
+%\footnotesize 
+\caption{The Role of Experience }\label{tab:soph_baseline}
+\caption*{ This table repeats the analysis in Table \ref{tab:hetero_lev} using a subsample of experienced borrowers. Experienced borrowers have an account age greater than the median age. Standard errors are clustered at the borrower and week levels and are reported in the parenthesis. *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively. }
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcc }
+     \toprule
+          & Leverage & Leverage \\
+          &       & (Subsample) \\
+          & (1)   & (2) \\
+
+\cmidrule{2-3}     $Treated \times DiscussToExe \times Quartile\text{ }1$ & Baseline    & Baseline \\
+          &       &  \\
+    $Treated \times DiscussToExe \times Quartile\text{ }2$ & -0.001 & -0.007 \\
+          & (0.004) & (0.005) \\[2pt]
+     $Treated \times DiscussToExe \times Quartile\text{ }3$ & -0.000 & -0.003 \\
+          & (0.004) & (0.005) \\[2pt]
+    $Treated \times DiscussToExe \times Quartile\text{ }4$ & -0.005 & 0.002 \\
+          & (0.004) & (0.007) \\
+          &       &  \\
+     $Treated \times PostExe \times Quartile\text{ }1$  & Baseline     & Baseline \\
+          &       &  \\
+    $Treated \times PostExe \times Quartile\text{ }2$ & 0.004 & -0.004 \\
+          & (0.005) & (0.008) \\[2pt]
+     $Treated \times PostExe \times Quartile\text{ }3$  & 0.007 & 0.003 \\
+          & (0.006) & (0.009) \\[2pt]
+     $Treated \times PostExe \times Quartile\text{ }4$  & 0.011* & 0.019** \\
+          & (0.006) & (0.008) \\
+          &       &  \\
+    Borrower FE &    $\checkmark$     & $\checkmark$   \\
+    Collateral-Week FE &  $\checkmark$       & $\checkmark$   \\
+          &       &  \\
+    Observations & 206,634 & 69,896 \\
+    R-squared & 0.822 & 0.876 \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+
+\clearpage
+\newpage
+
+
+
+\begin{table}[ht!]
+%\footnotesize 
+\caption{Depositors without Loan Positions }\label{tab:robust}
+\caption*{This table repeats analyses of Column (3) in Table \ref{tab:maindeposit} using a subsample of depositors without loan positions. Standard errors are clustered at the borrower and the week levels and are reported in the parenthesis. *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively. }
+
+
+\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\begin{tabular*}{0.5\linewidth}{@{\extracolsep{\fill}}lc }
+    \toprule
+
+          & Deposit  \\
+\cmidrule{2-2}    $Treated \times DiscussToExe$ & 0.035  \\
+          & (0.025)  \\
+          &         \\
+    $Treated \times PostExe $& 0.019 \\
+          & (0.039) \\
+          &                \\
+    Borrower FE &    $\checkmark$       \\
+    Collateral-week FE &  $\checkmark$         \\
+          &              \\
+    Observations & 278,310 \\
+    R-squared & 0.931 \\
+    \bottomrule
+          \end{tabular*} 
+
+
+
+\end{table}%
+
+\clearpage
+\newpage
+%\end{document}

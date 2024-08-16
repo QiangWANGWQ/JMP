@@ -1,0 +1,777 @@
+@article{GHOSH2023102558,
+title = {Prediction and interpretation of daily {NFT} and {DeFi} prices dynamics: Inspection through ensemble machine learning \& {XAI}},
+journal = {International Review of Financial Analysis},
+volume = {87},
+pages = {102558},
+year = {2023},
+issn = {1057-5219},
+doi = {https://doi.org/10.1016/j.irfa.2023.102558},
+url = {https://www.sciencedirect.com/science/article/pii/S1057521923000741},
+author = {Indranil Ghosh and Esteban Alfaro-Cortés and Matías Gámez and Noelia García-Rubio},
+keywords = {Non fungible tokens (NFT), Decentralized finance (DeFi), Feature engineering ensemble machine learning, Explainable artificial intelligence},
+abstract = {Non Fungible Tokens (NFT) and Decentralized Finance (DeFi) assets have seen a growing media coverage and garnered considerable investor traction despite being classified as a niche in the digital financial sector. The lack of substantial research to demystify the dynamics of NFT and DeFi coins motivates the scrupulous analysis of the said sector. This work aims to critically delve into the evolutionary pattern of the NFTs and DeFis for performing predictive analytics of the same during the COVID-19 regime. The multivariate framework comprises the systematic inclusion of explanatory features embodying technical indicators, key macroeconomic indicators, and constructs linked to media hype and sentiment pertinent to the pandemic, nonlinear feature engineering, and ensemble machine learning. Isometric Mapping (ISOMAP) and Uniform Manifold Approximation and Projection (UMAP) techniques are conjugated with Gradient Boosting Regression (GBR) and Random Forest (RF) for enabling the predictive analysis. The predictive performance rationalizes the frameworks' capacity to accurately predict the prices of the majority of the NFT and DeFi coins during the ongoing financial distress period. Additionally, Explainable Artificial Intelligence (XAI) methodologies are used to comprehend the nature of the impact of the explanatory variables. Findings suggest that the daily movement of the NFTs and DeFi highly depends on their past historical movement.}
+}
+
+@article{SHEN2019118,
+title = {Does twitter predict Bitcoin?},
+journal = {Economics Letters},
+volume = {174},
+pages = {118-122},
+year = {2019},
+issn = {0165-1765},
+doi = {https://doi.org/10.1016/j.econlet.2018.11.007},
+url = {https://www.sciencedirect.com/science/article/pii/S0165176518304634},
+author = {Dehua Shen and Andrew Urquhart and Pengfei Wang},
+keywords = {Bitcoin, Twitter, Investor attention, VAR, Granger causality},
+abstract = {This paper adds to the growing literature of Bitcoin by examining the link between investor attention and Bitcoin returns, trading volume and realized volatility. Unlike previous studies, we employ the number of tweets from Twitter as a measure of attention rather than Google trends as we argue this is a better measure of attention from more informed investors. We find that the number of tweets is a significant driver of next day trading volume and realized volatility which is supported by linear and nonlinear Granger causality tests.}
+}
+
+@article{AKYILDIRIM2021109980,
+title = {Do investor sentiments drive cryptocurrency prices?},
+journal = {Economics Letters},
+volume = {206},
+pages = {109980},
+year = {2021},
+issn = {0165-1765},
+doi = {https://doi.org/10.1016/j.econlet.2021.109980},
+url = {https://www.sciencedirect.com/science/article/pii/S0165176521002573},
+author = {Erdinc Akyildirim and Ahmet Faruk Aysan and Oguzhan Cepni and S. Pinar Ceyhan Darendeli},
+keywords = {Cryptocurrency, Sentiment, Spillovers, TVP-VAR},
+abstract = {This paper studies the dynamic network connectedness between cryptocurrency returns and sentiments using the novel cryptocurrency-specific MarketPsych sentiment data for 13 cryptocurrencies with the highest market capitalization. The results indicate the dominance of cryptocurrencies with higher market capitalization and information transmission from cryptocurrency returns to sentiments. Our results also show that Bitcoin is losing its dominance to alt-coins in return spillovers while still dominant in sentiment spillovers.}
+}
+
+
+@article{AHARON2022101546,
+title = {Twitter-Based uncertainty and cryptocurrency returns},
+journal = {Research in International Business and Finance},
+volume = {59},
+pages = {101546},
+year = {2022},
+issn = {0275-5319},
+doi = {https://doi.org/10.1016/j.ribaf.2021.101546},
+url = {https://www.sciencedirect.com/science/article/pii/S0275531921001677},
+author = {David Y. Aharon and Ender Demir and Chi Keung Marco Lau and Adam Zaremba},
+keywords = {Uncertainty, Twitter, Cryptocurrency, Bitcoin, Quantile-in-quantile, Directional test, Granger-causality, Copula},
+abstract = {We explore the relationship between two novel Twitter-based measures of economic and market uncertainty and the performance of four major cryptocurrencies. Using a battery of methods—quantile regressions, Granger-causality in distributions using copula functions, and directional predictability tests—we examine the behavior of Bitcoin, Ethereum, Bitcoin Cash, and Ripple. Our findings demonstrate a strong causal link between the uncertainty expressed in social media and cryptocurrency returns. The effect is particularly evident for Bitcoin and in the tails of return distributions. Our results cast new light on the importance of cryptocurrencies as an alternative asset class in the wake of global uncertainty.}
+}
+
+
+
+@article{NaeemEtAl2021,
+author = {Naeem, Muhammad Abubakr and Mbarki, Imen and Suleman, Muhammed Tahir and Vo, Xuan Vinh and Shahzad, Syed Jawad Hussain},
+title = {Does Twitter Happiness Sentiment predict cryptocurrency?},
+journal = {International Review of Finance},
+volume = {21},
+number = {4},
+pages = {1529-1538},
+keywords = {cryptocurrencies, linear and nonlinear Granger causality, quantile-on-quantile, Twitter Happiness Sentiment},
+doi = {https://doi.org/10.1111/irfi.12339},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/irfi.12339},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/irfi.12339},
+abstract = {Abstract We examine the predictive ability of Twitter Happiness Sentiment for six major cryptocurrencies using daily data from August 7, 2015 to December 31, 2019. At first instance, our results conclude a significant nonlinear relationship between Twitter Happiness Sentiment and cryptocurrencies. The nonlinear dependence structure is further enhanced when using the quantile-on-quantile (QQ) analysis, which indicates that high and low sentiment predicts returns of five cryptocurrencies. These findings are statistically and economically significant.},
+year = {2021}
+}
+
+@misc{HeinekenKantorovitch,
+title={Does Dispersed Sentiment drive Returns, Turnover, and Volatility for {B}itcoin?},
+year={2021},
+howpublished={Working Paper, University of Bonn and EPFL}}
+
+@article{MorrisShin2002,
+ ISSN = {00028282},
+ URL = {http://www.jstor.org/stable/3083261},
+ abstract = {What are the welfare effects of enhanced dissemination of public information through the media and disclosures by market participants with high public visibility? We examine the impact of public information in a setting where agents take actions appropriate to the underlying fundamentals, but they also have a coordination motive arising from a strategic complementarity in their actions. When the agents have no socially valuable private information, greater provision of public information always increases welfare. However, when agents also have access to independent sources of information, the welfare effect of increased public disclosures is ambiguous.},
+ author = {Stephen Morris and Hyun Song Shin},
+ journal = {The American Economic Review},
+ number = {5},
+ pages = {1521--1534},
+ publisher = {American Economic Association},
+ title = {Social Value of Public Information},
+ urldate = {2023-04-07},
+ volume = {92},
+ year = {2002}
+}
+
+@ARTICLE{Benhabib2015549,
+	author = {Benhabib, Jess and Wang, Pengfei and Wen, Yi},
+	title = {Sentiments and aggregate demand fluctuations},
+	year = {2015},
+	journal = {Econometrica},
+	volume = {83},
+	number = {2},
+	pages = {549 – 585},
+	doi = {10.3982/ECTA11085},
+	type = {Article},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 85; All Open Access, Green Open Access}
+}
+
+@article{JAQUART202145,
+title = {Short-term bitcoin market prediction via machine learning},
+journal = {The Journal of Finance and Data Science},
+volume = {7},
+pages = {45-66},
+year = {2021},
+issn = {2405-9188},
+doi = {https://doi.org/10.1016/j.jfds.2021.03.001},
+url = {https://www.sciencedirect.com/science/article/pii/S2405918821000027},
+author = {Patrick Jaquart and David Dann and Christof Weinhardt},
+keywords = {Asset pricing, Bitcoin, Financial market prediction, Gradient boosting, GRU, LSTM, Machine learning, Market efficiency, Neural network, Random forest},
+abstract = {We analyze the predictability of the bitcoin market across prediction horizons ranging from 1 to 60 min. In doing so, we test various machine learning models and find that, while all models outperform a random classifier, recurrent neural networks and gradient boosting classifiers are especially well-suited for the examined prediction tasks. We use a comprehensive feature set, including technical, blockchain-based, sentiment-/interest-based, and asset-based features. Our results show that technical features remain most relevant for most methods, followed by selected blockchain-based and sentiment-/interest-based features. Additionally, we find that predictability increases for longer prediction horizons. Although a quantile-based long-short trading strategy generates monthly returns of up to 39% before transaction costs, it leads to negative returns after taking transaction costs into account due to the particularly short holding periods.}
+}
+
+
+@article{HUANG2019140,
+title = {Predicting bitcoin returns using high-dimensional technical indicators},
+journal = {The Journal of Finance and Data Science},
+volume = {5},
+number = {3},
+pages = {140-155},
+year = {2019},
+issn = {2405-9188},
+doi = {https://doi.org/10.1016/j.jfds.2018.10.001},
+url = {https://www.sciencedirect.com/science/article/pii/S2405918818300928},
+author = {Jing-Zhi Huang and William Huang and Jun Ni},
+keywords = {Bitcoin return prediction, High-dimensional classification, Decision tree classification, CART, Cryptocurrency, Bitcoin, Technical indicators},
+abstract = {There has been much debate about whether returns on financial assets, such as stock returns or commodity returns, are predictable; however, few studies have investigated cryptocurrency return predictability. In this article we examine whether bitcoin returns are predictable by a large set of bitcoin price-based technical indicators. Specifically, we construct a classification tree-based model for return prediction using 124 technical indicators. We provide evidence that the proposed model has strong out-of-sample predictive power for narrow ranges of daily returns on bitcoin. This finding indicates that using big data and technical analysis can help predict bitcoin returns that are hardly driven by fundamentals.}
+}
+
+@article{BroschEtAl2013,
+title={The impact of emotion on perception, attention,memory, and decision-making},
+author={Brosch, Tobias and Scherer, Klaus R. and Grandjean, Didier and Sander, David},
+journal={Swiss Medical Weekly},
+volume={143},
+number={w13786},
+year={2013},
+pages={1--10}}
+
+@article{BW2007,
+Author = {Baker, Malcolm and Wurgler, Jeffrey},
+Title = {Investor Sentiment in the Stock Market},
+Journal = {Journal of Economic Perspectives},
+Volume = {21},
+Number = {2},
+Year = {2007},
+Month = {June},
+Pages = {129-152},
+DOI = {10.1257/jep.21.2.129},
+URL = {https://www.aeaweb.org/articles?id=10.1257/jep.21.2.129}}
+
+ 
+
+ @article{GHYSELS2005509,
+title = {There is a risk-return trade-off after all},
+journal = {Journal of Financial Economics},
+volume = {76},
+number = {3},
+pages = {509-548},
+year = {2005},
+issn = {0304-405X},
+doi = {https://doi.org/10.1016/j.jfineco.2004.03.008},
+url = {https://www.sciencedirect.com/science/article/pii/S0304405X05000140},
+author = {Eric Ghysels and Pedro Santa-Clara and Rossen Valkanov},
+keywords = {Risk-return trade-off, ICAPM, MIDAS, Conditional variance},
+abstract = {This paper studies the intertemporal relation between the conditional mean and the conditional variance of the aggregate stock market return. We introduce a new estimator that forecasts monthly variance with past daily squared returns, the mixed data sampling (or MIDAS) approach. Using MIDAS, we find a significantly positive relation between risk and return in the stock market. This finding is robust in subsamples, to asymmetric specifications of the variance process and to controlling for variables associated with the business cycle. We compare the MIDAS results with tests of the intertemporal capital asset pricing model based on alternative conditional variance specifications and explain the conflicting results in the literature. Finally, we offer new insights about the dynamics of conditional variance.}
+}
+
+ 
+
+ 
+
+@BOOK{ Shefrinbook,
+
+title = {A Behavioral Approach to Asset Pricing},
+
+author = {Shefrin, Hersh},
+
+year = {2008},
+
+edition = {2},
+
+publisher = {Elsevier},
+
+abstract = {Behavioral finance is the study of how psychology affects financial decision making and financial markets. It is increasingly becoming the common way of understanding investor behavior and stock market activity. Incorporating the latest research and theory, Shefrin offers both a strong theory and efficient empirical tools that address derivatives, fixed income securities, mean-variance efficient portfolios, and the market portfolio. The book provides a series of examples to illustrate the theory. The second edition continues the tradition of the first edition by being the one and only book to focus completely on how behavioral finance principles affect asset pricing, now with its theory deepened and enriched by a plethora of research since the first edition},
+
+keywords = {investor; Bayes rule; market efficiency; trading; sentiment; interest rate; prospect theory; returns},
+
+url = {https://EconPapers.repec.org/RePEc:eee:monogr:9780123743565}
+
+}
+
+ 
+
+ 
+
+ 
+
+@article{HongStein2003 ,
+
+ISSN = {08939454, 14657368},
+
+URL = {http://www.jstor.org/stable/1262683},
+
+abstract = {We develop a theory of market crashes based on differences of opinion among investors. Because of short-sales constraints, bearish investors do not initially participate in the market and their information is not revealed in prices. However, if other previously bullish investors bail out of the market, the originally bearish group may become the marginal "support buyers," and more will be learned about their signals. Thus accumulated hidden information comes out during market declines. The model explains a variety of stylized facts about crashes and also makes a distinctive new prediction—that returns will be more negatively skewed conditional on high trading volume.},
+
+author = {Harrison Hong and Jeremy C. Stein},
+
+journal = {The Review of Financial Studies},
+
+number = {2},
+
+pages = {487--525},
+
+publisher = {[Oxford University Press, Society for Financial Studies]},
+
+title = {Differences of Opinion, Short-Sales Constraints, and Market Crashes},
+
+urldate = {2023-06-12},
+
+volume = {16},
+
+year = {2003}
+
+}
+
+@Article{AcharyaBenhabibHuo2021,
+  author={Acharya, Sushant and Benhabib, Jess and Huo, Zhen},
+  title={{The anatomy of sentiment-driven fluctuations}},
+  journal={Journal of Economic Theory},
+  year=2021,
+  volume={195},
+  number={C},
+  pages={},
+  month={},
+  keywords={Sentiments; Endogenous information; Dynamic signal extraction},
+  doi={10.1016/j.jet.2021.105280},
+  abstract={We show that sentiments - self-fulfilling changes in beliefs that are orthogonal to fundamentals - can drive persistent aggregate fluctuations under rational expectations in a beauty-contest game. Such fluctuations can occur even in the absence of exogenous aggregate fundamental shocks. Moreover, sentiments alter the volatility and persistence of aggregate outcomes in response to fundamental shocks. We provide (i) necessary conditions under which sentiments can affect aggregate outcomes in equilibrium and (ii) conditions under which sentiments drive persistent fluctuations and when they only affect aggregate outcomes contemporaneously. We also show that sentiment equilibria are stable under least-squares learning while the fundamental equilibrium is not.},
+  url={https://ideas.repec.org/a/eee/jetheo/v195y2021ics0022053121000971.html}
+}
+
+
+@article{liu2021risks,
+  title={Risks and returns of cryptocurrency},
+  author={Liu, Yukun and Tsyvinski, Aleh},
+  journal={ Review of Financial Studies},
+  volume={34},
+  number={6},
+  pages={2689--2727},
+  year={2021},
+  publisher={Oxford University Press}
+}
+
+@article{andersen2001distribution,
+  title={The distribution of realized exchange rate volatility},
+  author={Andersen, Torben and Bollerslev, Tim and Diebold, Francis and Labys, Paul},
+  journal={Journal of the American Statistical Association},
+  volume={96},
+  number={453},
+  pages={42--55},
+  year={2001},
+  publisher={Taylor \& Francis}
+}
+
+@article{french1987expected,
+  title={Expected stock returns and volatility},
+  author={French, Kenneth R and Schwert, G William and Stambaugh, Robert F},
+  journal={Journal of financial Economics},
+  volume={19},
+  number={1},
+  pages={3--29},
+  year={1987},
+  publisher={Elsevier}
+}
+
+@article{corsi2009simple,
+  title={A simple approximate long-memory model of realized volatility},
+  author={Corsi, Fulvio},
+  journal={Journal of Financial Econometrics},
+  volume={7},
+  number={2},
+  pages={174--196},
+  year={2009},
+  publisher={Oxford University Press}
+}
+
+@article{ghysels2006predicting,
+  title={Predicting volatility: getting the most out of return data sampled at different frequencies},
+  author={Ghysels, Eric and Santa-Clara, Pedro and Valkanov, Rossen},
+  journal={Journal of Econometrics},
+  volume={131},
+  number={1-2},
+  pages={59--95},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{bollerslev2018risk,
+  title={Risk everywhere: Modeling and managing volatility},
+  author={Bollerslev, Tim and Hood, Benjamin and Huss, John and Pedersen, Lasse Heje},
+  journal={Review of Financial Studies},
+  volume={31},
+  number={7},
+  pages={2729--2773},
+  year={2018},
+  publisher={Oxford University Press}
+}
+
+@article{andersen2003modeling,
+  title={Modeling and forecasting realized volatility},
+  author={Andersen, Torben and Bollerslev, Tim and Diebold, Francis and Labys, Paul},
+  journal={Econometrica},
+  volume={71},
+  number={2},
+  pages={579--625},
+  year={2003},
+  publisher={Wiley Online Library}
+}
+
+@article{nakamoto2008bitcoin,
+  title={Bitcoin: A peer-to-peer electronic cash system},
+  author={Nakamoto, Satoshi},
+  journal={Decentralized Business Review},
+  pages={21260},
+  year={2008}
+}
+
+@article{griffin2020bitcoin,
+  title={Is Bitcoin really untethered?},
+  author={Griffin, John and Shams, Amin},
+  journal={Journal of Finance},
+  volume={75},
+  number={4},
+  pages={1913--1964},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+
+@article{makarov2020trading,
+  title={Trading and arbitrage in cryptocurrency markets},
+  author={Makarov, Igor and Schoar, Antoinette},
+  journal={Journal of Financial Economics},
+  volume={135},
+  number={2},
+  pages={293--319},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{newey1987simple,
+ title = {A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix},
+ author = {Whitney Newey and Kenneth West},
+ journal = {Econometrica},
+ number = {3},
+ pages = {703--708},
+ publisher = {[Wiley, Econometric Society]},
+ urldate = {2023-04-03},
+ volume = {55},
+ year = {1987}
+}
+
+@article{diebold2002comparing,
+  title={Comparing predictive accuracy},
+  author={Diebold, Francis and Mariano, Robert},
+  journal={Journal of Business \& Economic Statistics},
+  volume={20},
+  number={1},
+  pages={134--144},
+  year={1995},
+  publisher={Taylor \& Francis}
+}
+
+@article{liu2022common,
+  title={Common risk factors in cryptocurrency},
+  author={Liu, Yukun and Tsyvinski, Aleh and Wu, Xi},
+  journal={ Journal of Finance},
+  volume={77},
+  number={2},
+  pages={1133--1177},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+@article{cong2021tokenomics,
+  title={Tokenomics: Dynamic adoption and valuation},
+  author={Cong, Lin William and Li, Ye and Wang, Neng},
+  journal={Review of Financial Studies},
+  volume={34},
+  number={3},
+  pages={1105--1155},
+  year={2021},
+  publisher={Oxford University Press}
+}
+
+@article{barndorff2009realized,
+  title={Realized kernels in practice: Trades and quotes},
+  author={Barndorff-Nielsen, Ole and Hansen, Reinhard and Lunde, Asger and Shephard, Neil},
+  journal = {The Econometrics Journal},
+  volume = {12},
+  number = {3},
+  pages = {1--32},
+  year={2009},
+  publisher={Oxford University Press Oxford, UK}
+}
+
+
+@article{fleming2001economic,
+  title={The economic value of volatility timing},
+  author={Fleming, Jeff and Kirby, Chris and Ostdiek, Barbara},
+  journal={ Journal of Finance},
+  volume={56},
+  number={1},
+  pages={329--352},
+  year={2001},
+  publisher={Wiley Online Library}
+}
+
+@article{barndorff2002estimating,
+  title={Estimating quadratic variation using realized variance},
+  author={Barndorff-Nielsen, Ole and Shephard, Neil},
+  journal={Journal of Applied Econometrics},
+  volume={17},
+  number={5},
+  pages={457--477},
+  year={2002},
+  publisher={Wiley Online Library}
+}
+
+@article{biais2023equilibrium,
+  title={Equilibrium bitcoin pricing},
+  author={Biais, Bruno and Bisiere, Christophe and Bouvard, Matthieu and Casamatta, Catherine and Menkveld, Albert J},
+  journal={Journal of Finance},
+  volume={78},
+  number={2},
+  pages={967--1014},
+  year={2023},
+  publisher={Wiley Online Library}
+}
+
+@article{pagnotta2018equilibrium,
+  title={An equilibrium valuation of bitcoin and decentralized network assets},
+  author={Pagnotta, Emiliano and Buraschi, Andrea},
+  journal={Available at SSRN 3142022},
+  year={2018}
+}
+
+@misc{sockin2020model,
+  title={A model of cryptocurrencies},
+  author={Sockin, Michael and Xiong, Wei},
+  year={2020},
+  howpublished={Working Paper}
+}
+@misc{cong2021value,
+  title={Value premium, network adoption, and factor pricing of crypto assets},
+  author={Cong, Lin William and Karolyi, Andrew and Tang, Ke and Zhao, Weiyi},
+  howpublished={Working Paper, Cornell University, Tsinghua University},
+  year={2021}
+}
+
+@misc{zhang2021good,
+  title={Good Volatility, Bad Volatility, and the Cross Section of Cryptocurrency Returns},
+  author={Zhang, Zehua and Zhao, Ran},
+  howpublished={Working Paper},
+  year={2021}
+}
+
+@article{kumar2019volatility,
+  title={Volatility spillover in crypto-currency markets: Some evidences from \text{GARCH} and wavelet analysis},
+  author={Kumar, Anoop and Anandarao, Suvvari},
+  journal={Physica A: statistical mechanics and its applications},
+  volume={524},
+  pages={448--458},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{katsiampa2017volatility,
+  title={Volatility estimation for Bitcoin: A comparison of \text{GARCH} models},
+  author={Katsiampa, Paraskevi},
+  journal={Economics letters},
+  volume={158},
+  pages={3--6},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{andersen1998answering,
+  title={Answering the skeptics: Yes, standard volatility models do provide accurate forecasts},
+  author={Andersen, Torben and Bollerslev, Tim},
+  journal={International Economic Review},
+  pages={885--905},
+  year={1998},
+  publisher={JSTOR}
+}
+
+@article{lahmiri2018long,
+  title={Long-range memory, distributional variation and randomness of bitcoin volatility},
+  author={Lahmiri, Salim and Bekiros, Stelios and Salvi, Antonio},
+  journal={Chaos, Solitons \& Fractals},
+  volume={107},
+  pages={43--48},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{chu2017garch,
+  title={\text{GARCH} modelling of cryptocurrencies},
+  author={Chu, Jeffrey and Chan, Stephen and Nadarajah, Saralees and Osterrieder, Joerg},
+  journal={Journal of Risk and Financial Management},
+  volume={10},
+  number={4},
+  pages={17},
+  year={2017},
+  publisher={MDPI}
+}
+
+
+
+
+@misc{cong2021crypto,
+  title={Crypto wash trading},
+  author={Cong, Lin William and Li, Xi and Tang, Ke and Yang, Yang},
+  howpublished={Working Paper},
+  year={2021}
+}
+
+@misc{aloosh2019direct,
+  title={Direct evidence of bitcoin wash trading},
+  author={Aloosh, Arash and Li, Jiasun},
+  howpublished={Working Paper},
+  year={2019}
+}
+
+@misc{li2021cryptocurrency,
+  title={Cryptocurrency pump-and-dump schemes},
+  author={Li, Tao and Shin, Donghwa and Wang, Baolian},
+  howpublished={Working Paper},
+  year={2021}
+}
+@article{foley2019sex,
+  title={Sex, drugs, and bitcoin: How much illegal activity is financed through cryptocurrencies?},
+  author={Foley, Sean and Karlsen, Jonathan and Putni{\c{n}}{\v{s}}, T{\=a}lis J},
+  journal={Review of Financial Studies},
+  volume={32},
+  number={5},
+  pages={1798--1853},
+  year={2019},
+  publisher={Oxford University Press}
+}
+
+@misc{shams2020structure,
+  title={The structure of cryptocurrency returns},
+  author={Shams, Amin},
+  howpublished={Working Paper 2020-03},
+  year={2020}
+}
+
+
+@article{drobetz2019investor,
+  title={Investor sentiment and initial coin offerings},
+  author={Drobetz, Wolfgang and Momtaz, Paul and Schr{\"o}der, Henning},
+  journal={ Journal of Alternative Investments},
+  volume={21},
+  number={4},
+  pages={41--55},
+  year={2019},
+  publisher={Institutional Investor Journals Umbrella}
+}
+
+@article{engle2022events,
+  title={What are the events that shake our world? Measuring and hedging global COVOL},
+  author={Engle, Robert and Campos-Martins, Susana},
+  journal={Journal of Financial Economics, forthcoming},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{abraham2018cryptocurrency,
+  title={Cryptocurrency price prediction using tweet volumes and sentiment analysis},
+  author={Abraham, Jethin and Higdon, Daniel and Nelson, John and Ibarra, Juan},
+  journal={SMU Data Science Review},
+  volume={1},
+  number={3},
+  pages={1},
+  year={2018}
+}
+
+@book{harvey2021defi,
+  title={DeFi and the Future of Finance},
+  author={Harvey, Campbell R and Ramachandran, Ashwin and Santoro, Joey},
+  year={2021},
+  publisher={John Wiley \& Sons}
+}
+
+@article{tetlock2007giving,
+  title={Giving content to investor sentiment: The role of media in the stock market},
+  author={Tetlock, Paul},
+  journal={Journal of Finance},
+  volume={62},
+  number={3},
+  pages={1139--1168},
+  year={2007},
+  publisher={Wiley Online Library}
+}
+
+@misc{bianchi2021factor,
+  title={A factor model for cryptocurrency returns},
+  author={Bianchi, Daniele and Babiak, Mykola},
+  howpublished={Working Paper, Queen Mary University of London, Lancaster University},
+  year={2021}
+}
+@misc{borri2018cryptomarket,
+  title={Cryptomarket discounts},
+  author={Borri, Nicola and Shakhnov, Kirill},
+  howpublished={Working Paper, Luiss University, University of Surrey},
+  year={2018}
+}
+
+@misc{hautsch2018building,
+  title={Building trust takes time: Limits to arbitrage in blockchain-based markets},
+  author={Hautsch, Nikolaus and Scheuch, Christoph and Voigt, Stefan},
+  howpublished={Working Paper, University of Vienna, wikifolio Financial Technologies AG, University of Copenhagen},
+  year={2018}
+}
+
+@article{de1990noise,
+  title={Noise trader risk in financial markets},
+  author={De Long, Bradford and Shleifer, Andrei and Summers, Lawrence and Waldmann, Robert},
+  journal={Journal of Political Economy},
+  volume={98},
+  number={4},
+  pages={703--738},
+  year={1990},
+  publisher={The University of Chicago Press}
+}
+
+@article{antweiler2004all,
+  title={Is all that talk just noise? The information content of internet stock message boards},
+  author={Antweiler, Werner and Frank, Murray},
+  journal={Journal of Finance},
+  volume={59},
+  number={3},
+  pages={1259--1294},
+  year={2004},
+  publisher={Wiley Online Library}
+}
+
+@article{chen2014wisdom,
+  title={Wisdom of crowds: The value of stock opinions transmitted through social media},
+  author={Chen, Hailiang and De, Prabuddha and Hu, Yu and Hwang, Byoung-Hyoun},
+  journal={ Review of Financial Studies},
+  volume={27},
+  number={5},
+  pages={1367--1403},
+  year={2014},
+  publisher={Oxford University Press}
+}
+
+@article{da2015sum,
+  title={The sum of all FEARS investor sentiment and asset prices},
+  author={Da, Zhi and Engelberg, Joseph and Gao, Pengjie},
+  journal={Review of Financial Studies},
+  volume={28},
+  number={1},
+  pages={1--32},
+  year={2015},
+  publisher={Oxford University Press}
+}
+
+@article{baker2006investor,
+  title={Investor sentiment and the cross-section of stock returns},
+  author={Baker, Malcolm and Wurgler, Jeffrey},
+  journal={Journal of Finance},
+  volume={61},
+  number={4},
+  pages={1645--1680},
+  year={2006},
+  publisher={Wiley Online Library}
+}
+
+@article{kraaijeveld2020predictive,
+  title={The predictive power of public Twitter sentiment for forecasting cryptocurrency prices},
+  author={Kraaijeveld, Olivier and De Smedt, Johannes},
+  journal={Journal of International Financial Markets, Institutions and Money},
+  volume={65},
+  pages={101188},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{barber2022attention,
+  title={Attention-Induced Trading and Returns: Evidence from Robinhood Users},
+  author={Barber, Brad and Huang, Xing and Odean, Terrance and Schwarz, Christopher},
+  journal={Journal of Finance},
+  volume={77},
+  number={6},
+  pages={3141--3190},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+
+@misc{chiu2022inherent,
+  title={On the inherent fragility of DeFi lending},
+  author={Chiu, Jonathan and Ozdenoren, Emre and Yuan, Kathy and Zhang, Shengxing},
+  year={2022},
+    howpublished={Working Paper}
+}
+
+@article{barber2008all,
+  title={All that glitters: The effect of attention and news on the buying behavior of individual and institutional investors},
+  author={Barber, Brad and Odean, Terrance},
+  journal={ Review of Financial Studies},
+  volume={21},
+  number={2},
+  pages={785--818},
+  year={2008},
+  publisher={Oxford University Press}
+}
+
+@article{da2011search,
+  title={In search of attention},
+  author={Da, Zhi and Engelberg, Joseph and Gao, Pengjie},
+  journal={Journal of Finance},
+  volume={66},
+  number={5},
+  pages={1461--1499},
+  year={2011},
+  publisher={Wiley Online Library}
+}
+
+@article{hillert2014media,
+  title={Media makes momentum},
+  author={Hillert, Alexander and Jacobs, Heiko and M{\"u}ller, Sebastian},
+  journal={Review of Financial Studies},
+  volume={27},
+  number={12},
+  pages={3467--3501},
+  year={2014},
+  publisher={Oxford University Press}
+}
+
+@article{daniel1998investor,
+  title={Investor psychology and security market under-and overreactions},
+  author={Daniel, Kent and Hirshleifer, David and Subrahmanyam, Avanidhar},
+  journal={Journal of Finance},
+  volume={53},
+  number={6},
+  pages={1839--1885},
+  year={1998},
+  publisher={Wiley Online Library}
+}
+
+@article{campbell1993trading,
+  title={Trading volume and serial correlation in stock returns},
+  author={Campbell, John Y and Grossman, Sanford J and Wang, Jiang},
+  journal={The Quarterly Journal of Economics},
+  volume={108},
+  number={4},
+  pages={905--939},
+  year={1993},
+  publisher={MIT Press}
+}
+
+@misc{cookson2022social,
+  title={The social signal},
+  author={Cookson, Anthony and Lu, Runjing and Mullins, William and Niessner, Marina},
+  howpublished={Working Paper, University of Colorado at Boulder, University of Alberta, University of California, University of Pennsylvania},
+  year={2022}
+}

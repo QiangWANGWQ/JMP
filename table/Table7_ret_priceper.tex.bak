@@ -1,0 +1,20 @@
+          & (1)   & (2)   & (H)&(H)&(3)   & (4)   & (5)   & (6) \\
+          & $Ret_t$ & $Ret_t$ & $Ret_t$ & $Ret_t$ & $Ret_t$ & $Ret_t$ & $Ret_t$ & $Ret_t$ \\
+    (Price Perception$_{t-1}$ measured as) &  ($Price$ & ($Price$ &  ($Price$ &  ($Price$ &  ($Price Forecast$ &  ($Price$ & ($TopVs$ & ($LongShort$ \\
+          & $Sentiment_{t-1}$) & $UpvsDown_{t-1}$) & $Up_{t-1}$) & $Down_{t-1}$) & $UpvsDown_{t-1}$) & $Momentum_{t-1}$) & $Bottom_{t-1}$) & $Forecast_{t-1}$)  \\
+    \midrule
+    Price Perception Related to   & 1.1392** & 1.1301** & 1.1268** & -1.1075** & 1.1138** & 1.0799** & 1.0779** & 1.1343** \\
+    Market-wide Exuberance$_{t-1}$                & (2.26) & (2.24) & (2.26) & (-2.18) & (2.22) & (2.16) & (2.16) & (2.29) \\
+          &       &       &       &       &       &       &  \\
+    Price Perception Unrelated to  & 0.0769 & -0.0386 & -0.1099 & 0.2247 & -0.2115 & -0.3395 & 0.1871 & 0.3801 \\
+     Market-wide Exuberance$_{t-1}$               & (0.16) & (-0.08) & (-0.27) & (0.41) & (-0.44) & (-0.74) & (0.37) & (0.88) \\
+
+    \midrule
+    Sentiment on Fundamental$_{i,t-1}$ & Yes   & Yes   & Yes   & Yes   & Yes   & Yes   & Yes & Yes\\
+    X$_{i,t-1}$ & Yes   & Yes   & Yes   & Yes   & Yes   & Yes   & Yes & Yes\\
+    Controls & Yes   & Yes   & Yes   & Yes   & Yes   & Yes   & Yes& Yes \\
+    Crypto FE & Yes   & Yes   & Yes   & Yes   & Yes   & Yes   & Yes & Yes\\
+    \midrule
+    $N$ & 85285 & 85285 & 85285 & 85285 & 85285 & 85285 & 85285  & 85285 \\
+    Adjusted $R^{2}$ & 0.014 & 0.014 & 0.014 & 0.014 & 0.014 & 0.014 & 0.014 & 0.014 \\
+    \bottomrule
